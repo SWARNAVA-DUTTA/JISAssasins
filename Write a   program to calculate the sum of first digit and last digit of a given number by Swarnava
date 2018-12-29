@@ -1,0 +1,7 @@
+array=[]
+num=int(input("Enter a number: "))
+for i in str(num):
+    array.append(i)
+length=len(array)
+summ=int(array[0])+int(array[length-1])
+print("The sum of first and last digit is=" ,summ)
